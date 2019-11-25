@@ -1,0 +1,18 @@
+Maticová kalkulaèka
+
+Vytvoøte aplikaci implementující maticovou kalkulaèku.
+
+Kalkulaèka musí implementovat:
+
+práci s maticemi rùzné velikosti
+základní operace: sèítání, odèítání, násobení, transpozice
+slouèení (3x3 slouèeno s 3x3 => matice 6x3) a oøíznutí (napø. pouze levá polovina matice 6x3 => levá 3x3)
+pro ètvertcové matice navíc vıpoèet inverze
+efektivní pamìovou reprezentaci (pro øídké matice se nehodí 2D pole, pro husté matice naopak)
+funkce pro vıpoèet determinantu, urèení hodnosti, Gaussova eliminaèní metoda
+promìnné (uloení matice do promìnné, naèítání matice ze vstupu, vyuití promìnné ve vıpoètu)
+Pouití polymorfismu (doporuèenì)
+
+typ matice: promìnná, øídká (mapa, list) vs. hustá (2D pole)
+operace: sèítání, odèítání, násobení, ...
+varianta GEMu: klasická, s komentáøem
